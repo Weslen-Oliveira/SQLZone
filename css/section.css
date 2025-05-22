@@ -1,0 +1,54 @@
+section{
+    
+}
+.sessao_recepcao h1{
+    text-align: center;
+    line-height: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+}
+.sessao_recepcao h2{
+    text-align: center;
+    line-height: 2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+}
+.sessao_niveis{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    padding-block: 3em;
+    gap: 3em;
+}
+.sessao_niveis_cards{
+    text-align: center;
+    width: 30%;
+    padding: 1.5em;
+    background-color: #ffffff;
+    /* border: solid 1px #cccccc; */
+    border-radius: 0.5em;
+    /* box-shadow: 2px 2px 10px 0px; */
+}
+.sessao_niveis_cards h3 a{
+    text-align: center;
+    color: #FF9900;
+    font-family: "Teko", sans-serif;
+    font-weight: 500;
+    font-size: 3.5em;
+    line-height: 2em;
+}
+.sessao_niveis_cards p{
+    text-align: center;
+    color: #CCCCCC;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 2em;
+}
+li{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+    font-weight: 700;
+}

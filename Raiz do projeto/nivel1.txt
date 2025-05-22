@@ -1,0 +1,116 @@
+                       -- Nível 1 --
+
+    1- Vamos  Praticar consultas básicas aquelas que tivemos os primeiros contatos.
+
+    2- Vamos criar um Banco de Dados com cinco tabelas e cada tabela com cinco colunas 
+    Poderia ser qualquer Banco de Dados qualquer tabela da sua imaginação mas escolhi fazer isso então
+
+    3- Crie uma Banco de Dados Arvore_Genealogica
+        Crie 5 tabela Família onde teremos 5 clunas cada tabela 
+
+        Exemplo: Família (id, nome, categoria, sexo, idade)
+                 Família_Paterna (id, nome, categoria, sexo, idade)
+                 Família_Materna (id, nome, categoria, sexo, idade)
+                 Casais (id, nome_casal, data_casamento tempo_casado quantidade_filhos )
+                 Primogênito (id, nome, sexo, id_pai, id_mae)
+
+    4- Agora vamos manipular os dadosa das tabelas baseados nos exercicios a seguir 
+
+                    Exercícios de SELECT
+
+        .Selecione todos os registros da tabela Familia.
+        .Liste apenas os nomes e idades dos membros da Familia.
+        .Mostre todos os dados da Familia_Paterna onde a idade é maior que 50.
+        .Selecione os nomes da Familia_Materna onde o sexo é feminino ('F').
+        .Liste todos os casais ordenados pelo tempo de casamento (do mais antigo para o mais recente).
+        .Mostre os primogênitos do sexo masculino.
+        .Selecione os membros da Familia com idade entre 30 e 40 anos.
+        .Liste os nomes da Familia_Paterna que começam com a letra 'A'.
+        .Mostre os casais que têm mais de 2 filhos.
+        .Selecione os primogênitos ordenados por nome em ordem alfabética.
+
+            Exercícios de WHERE, AND e OR
+
+        .Liste os membros da Familia que são do sexo masculino E têm menos de 40 anos.
+        .Mostre os membros da Familia_Materna que são do sexo feminino OU têm mais de 60 anos.
+        .Selecione os casais que se casaram depois de 2010 E têm pelo menos 1 filho.
+        .Liste os primogênitos que são do sexo feminino OU cujo pai tem ID 1.
+        .Mostre os membros da Familia_Paterna que não são do sexo masculino E têm menos de 70 anos.
+        .Selecione os casais onde o tempo de casado é maior que 10 anos OU a quantidade de filhos é 0.
+        .Liste os membros da Familia cuja idade é exatamente 35 OU 45 anos.
+        .Mostre os primogênitos cujo ID da mãe é 2 E o ID do pai é 1.
+        .Selecione os membros da Familia_Materna que têm entre 50 e 60 anos OU são do sexo masculino.
+        .Liste os casais que não têm filhos E se casaram antes de 2005.
+
+            Exercícios de ORDER BY e LIMIT
+
+        .Liste os 3 membros mais velhos da Familia.
+        .Mostre os 2 casais mais recentes (com data de casamento mais próxima da atualidade).
+        .Selecione todos os primogênitos ordenados por idade do mais novo para o mais velho.
+        .Liste os membros da Familia_Paterna em ordem alfabética de nome.
+        .Mostre os 5 membros mais jovens da Familia_Materna.
+        .Selecione os casais ordenados pela quantidade de filhos (do que tem mais para o que tem menos).
+        .Liste os primogênitos do sexo feminino ordenados por nome (Z-A).
+        .Mostre os 3 membros mais velhos da Familia que são do sexo masculino.
+        .Selecione os casais com tempo de casado entre 5 e 15 anos, ordenados pelo tempo de casamento.
+        .Liste todos os membros da Familia_Paterna limitando a 4 resultados.
+
+            Exercícios de INSERT, UPDATE e DELETE
+
+        .Insira um novo membro na tabela Familia: nome "Carlos", categoria "Filho", sexo "M", idade 15.
+        .Adicione um novo casal na tabela Casais: nome_casal "José e Maria", data_casamento "2010-05-20", tempo_casado 13, quantidade_filhos 2.
+        .Insira um primogênito: nome "Ana", sexo "F", id_pai 1, id_mae 2.
+        .Atualize a idade para 70 de todos os membros da Familia_Paterna que têm mais de 65 anos.
+        .Mude a quantidade de filhos para 3 do casal com ID 2.
+        .Atualize o nome para "Roberto" do primogênito com ID 1.
+        .Delete todos os casais que não têm filhos (quantidade_filhos = 0).
+        .Remova o membro da Familia_Materna com ID 5.
+        .Atualize a categoria para "Avô" dos membros da Familia_Paterna com idade maior que 60.
+        .Delete todos os primogênitos com idade menor que 10 anos.
+
+            Soluções para os Exercícios
+
+            Aqui estão as soluções para os primeiros 5 exercícios como exemplo:
+
+            CREATE DATABASE Arvore_Genealogica
+            CREATE TABLE nome da tabela
+            SELECT * FROM Familia; 
+            SELECT nome, idade FROM Familia;
+            SELECT * FROM Familia_Paterna WHERE idade > 50;
+            SELECT nome FROM Familia_Materna WHERE sexo = 'F';
+            SELECT * FROM Casais ORDER BY data_casamento ASC;
+
+
+COR Branca:
+ #FFFFFF 0%
+ #FAFAFA 2%
+ #F5F5F5 5%
+ #F0F0F0 6% - 7%
+ #EEEEEE 10%
+ #E0E0E0 12% - 15%
+
+COR Azul:
+#6FA8DC Claro
+#2F6F9F Original
+#1C4B75 Escuro
+#3A9AA8 Turquesa
+background: linear-gradient(to bottom, #6FA8DC, #2F6F9F); Profundidade
+background: linear-gradient(to right, #2F6F9F, #1C4B75); Familia
+background: linear-gradient(45deg, #2F6F9F, #3A9AA8); Esverdeado
+background: linear-gradient(to bottom, #FFFFFF, #2F6F9F); Esbranquiçado
+background: linear-gradient(to bottom, #2F6F9F, #000000); Escurecido
+
+
+
+
+COR Laranja:
+#FF9900 Claro
+#FFCC00 Dourado
+#E07B00 Escuro
+background: linear-gradient(to bottom, #FF9900, #994D00); Terroso
+background: linear-gradient(to bottom, #FF9900, #FF6699); Rosado
+background: linear-gradient(to right, #FF9900, #FF3300); Solarado
+background: linear-gradient(45deg, #FF9900, #FFCC00); Amarelado
+background: linear-gradient(to bottom, #FF9900, #E07B00); Escuro
+background: linear-gradient(to bottom, #0066cc, #9933cc);
+
