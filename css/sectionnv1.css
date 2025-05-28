@@ -31,6 +31,8 @@
  }
  .resp01OK{
     display: none;
+    /* border: solid 3px #000000; */
+    padding-block: 0.5em;
  }
 .resp01OK table {
     display: flex;
@@ -70,4 +72,24 @@ caption {
 .resp01NOK{
     display: none;
 }
+#proximo{
+    display: none;
+}
+/* Estilo para os botões */
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+button:hover{
+    background-color: #757575;
+    color: #ffffff;
+}
+
+
+
 
