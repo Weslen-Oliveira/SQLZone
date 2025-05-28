@@ -80,6 +80,11 @@
             SELECT nome FROM Familia_Materna WHERE sexo = 'F';
             SELECT * FROM Casais ORDER BY data_casamento ASC;
 
+Fontes:
+-Teko, sans-serif
+-Roboto Mono, monospace
+-Montserrat, sans-serif
+
 
 COR Branca:
  #FFFFFF 0%
