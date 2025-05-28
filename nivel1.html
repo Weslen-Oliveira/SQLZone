@@ -29,10 +29,45 @@
             <p><a href="quemsomos.html">Quem Somos</a></p>
         </div>
     </header>
-
-
+    
     <section class="sectionnv1">
-        Vamos começar 
+        <h1 id="tituloNv1">Você  esta no nívei 1 conceitos Básicos vamos lá?</h1>
+        <h2 id="comando">Comandos que serão usados (CREATE, SELECT, WHERE,  AND) </h2>
+
+        <div class="questao01">
+            <h2>Crie uma tabela no banco de dados Arvore_Genealogica</h2>
+            <p>Tabela Familia  com 5 colunas (id, nome, categoria, sexo, idade)</p>
+            <input type="text" name="" id="consulta" placeholder="Digite aqui seus comandos SQL ">
+            <button id="enviar">Enviar</button>
+            
+            <div class="resp01OK" id="tabelaOK">
+                <h2>Parábens sua tabela foi criada</h2>
+               <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOME</th>
+                        <th>CATEGORIA</th>
+                        <th>SEXO</th>
+                        <th>IDADE</th>
+                    </tr>
+                    <!-- <tr>
+                        <td>Dado 1</td>
+                        <td>Dado 2</td>
+                        <td>Dado 2</td>
+                        <td>Dado 2</td>
+                        <td>Dado 2</td>
+                        <td>Dado 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dado 3</td>
+                        <td>Dado 4</td>
+                    </tr> -->
+                    </table>
+            </div>
+            <div class="resp01NOK" id="tabelaNOK">
+                <h2>Você digitou os comando errados</h2>
+            </div>
+        </div>
     </section>
     
     <footer class="footer">
@@ -42,5 +77,7 @@
             <a href="https://weslenoliveira710@gmail.com" target="_blank"><img src="img/EMAIL.svg" alt="" class="logo_footer"></a> -->
         </div>
     </footer>
+
+    <script src="nivel1.js"></script>
 </body>
 </html>

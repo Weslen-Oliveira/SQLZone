@@ -1,5 +1,73 @@
 .sectionnv1{
-    height: 30%;
-    
-    padding: 10em;
+  padding: 1em;
+  text-align: center;
+  
 }
+.sectionnv1 h1{
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.7em;
+  font-weight: 700;
+  padding-block: 1em;
+  
+}
+.sectionnv1 h2{
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-block: 1em;
+}
+.questao01{
+    background-color: #2F6F9F;
+    color: #E0E0E0;
+    font-family: "Roboto Mono", monospace;
+    /* display: none; */
+} 
+ .questao01 p{
+   padding-block: 0.5em;
+ }
+ input{
+    margin-bottom: 1em;
+    width: 30%;
+ }
+ .resp01OK{
+    display: none;
+ }
+.resp01OK table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    /* margin: 5px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+ }
+        
+th, td {
+    border: 1px solid #000000;
+     text-align: center;
+    padding: 12px;
+}
+        
+th {
+    background-color: #363636;
+    font-weight: bold;
+    color: #000000;
+}
+        
+/* tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+        
+tr:hover {
+    background-color: #f1f1f1;
+}
+        
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}*/
+.resp01NOK{
+    display: none;
+}
+

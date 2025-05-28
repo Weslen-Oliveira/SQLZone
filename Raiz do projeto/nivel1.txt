@@ -6,7 +6,7 @@
     Poderia ser qualquer Banco de Dados qualquer tabela da sua imaginação mas escolhi fazer isso então
 
     3- Crie uma Banco de Dados Arvore_Genealogica
-        Crie 5 tabela Família onde teremos 5 clunas cada tabela 
+        Crie 5 tabela Família onde teremos 5 colunas cada tabela 
 
         Exemplo: Família (id, nome, categoria, sexo, idade)
                  Família_Paterna (id, nome, categoria, sexo, idade)
@@ -89,9 +89,24 @@ COR Branca:
  #EEEEEE 10%
  #E0E0E0 12% - 15%
 
+
+COR Cinza:
+#F5F5F5 Cinza claro - ótimo para fundo
+#E0E0E0 Cinza médio-claro
+#BDBDBD Cinza médio
+#757575 Cinza médio-escuro
+#212121 Cinza quase preto - contraste sutil
+background: linear-gradient(to bottom, #BDBDBD, #363636); Profundo
+background: linear-gradient(to bottom, #EEEEEE, #757575); Moderno
+background: linear-gradient(to bottom, #E0E0E0, #212121); Alto contraste
+background: linear-gradient(to bottom, #616161, #000000); Neutro Escuro
+background: linear-gradient(to bottom, #FFFFFF, #BDBDBD); Nuvem
+
+
+
 COR Azul:
 #6FA8DC Claro
-#2F6F9F Original
+#2F6F9F Original*
 #1C4B75 Escuro
 #3A9AA8 Turquesa
 background: linear-gradient(to bottom, #6FA8DC, #2F6F9F); Profundidade
@@ -99,8 +114,6 @@ background: linear-gradient(to right, #2F6F9F, #1C4B75); Familia
 background: linear-gradient(45deg, #2F6F9F, #3A9AA8); Esverdeado
 background: linear-gradient(to bottom, #FFFFFF, #2F6F9F); Esbranquiçado
 background: linear-gradient(to bottom, #2F6F9F, #000000); Escurecido
-
-
 
 
 COR Laranja:
